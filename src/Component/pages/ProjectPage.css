@@ -1,0 +1,21 @@
+.pagename{
+    display: flex;
+    padding: 100px 0px 0px 35px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.card {
+    height:700px;
+    width:980px;
+    background-color: #161616;
+    margin-top: 35px;
+    margin-left: 30px;
+    border-radius: 50px;
+}
+
+.button-div {
+    border: 1px solid white;
+    width:500px;
+  height: auto;
+}

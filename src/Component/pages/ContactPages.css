@@ -1,0 +1,78 @@
+.pagename{
+    display: flex;
+    padding: 100px 0px 0px 35px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.card {
+    height:700px;
+    width:980px;
+    background-color: #161616;
+    margin-top: 35px;
+    margin-left: 30px;
+    border-radius: 50px;
+}
+
+.text-intro {
+    font-size:25px;
+    font-weight: 700;
+   padding-top: 50px;
+}
+
+.input-name {
+padding: 80px 0 0 20px;
+align-items: center;
+gap: 15px;
+}
+
+input {
+    width: 600px;
+    height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+   margin-top: 25px;
+}
+
+input ::placeholder{
+padding-left: 35px;
+font-size: 16px;
+}
+
+.line {
+    height: 2px;
+    width: 600px;
+    background-color: #FFFFFF;
+    margin-left: 200px;
+}
+
+.message-area {
+    display: flex;
+    margin: 80px 0 0 150px;
+    width: 680px;
+    height:170px ;
+}
+
+textarea {
+    background: transparent;
+    color: #fff;
+}
+
+textarea::placeholder {
+   font-size: 16px;
+}
+
+button {
+    height: 30px;
+    width: 280px;
+    margin-top: 25px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 3px;
+    background: transparent;
+    font-size: 16px;
+    font-family: poppins;
+    cursor: pointer;
+}

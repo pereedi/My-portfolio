@@ -1,0 +1,40 @@
+
+.footer-card {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:80px;
+    height: 300px;
+    width: auto;
+    background-color: #161616;
+    background-size: cover;
+    color: #fff;
+}
+
+
+
+.foot-pairs a {
+    color: #fff
+    
+}
+
+.foot-pairs a h3 {
+  font-size:15px;
+  font-weight: 100px;
+}
+
+@media (max-width: 600px ) {
+  .footer-card {
+    padding-right:1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 500px;
+    background-color: #161616;
+    background-size: cover;
+    color: #fff;
+}
+}
