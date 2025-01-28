@@ -17,7 +17,7 @@ export const NavBar = () => {
                     <Link to="/pereedi" ><h3>pereedi</h3></Link>
 
                 </div>
-
+             
                 <div className='Nav-right'>
 
                     <Link to="/project"><h3>Project</h3></Link>
