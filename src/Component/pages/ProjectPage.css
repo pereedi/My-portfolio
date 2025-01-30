@@ -14,8 +14,60 @@
     border-radius: 50px;
 }
 
+.card::-webkit-scrollbar {
+    width: 10px;
+}
+
 .button-div {
     border: 1px solid white;
     width:500px;
-  height: auto;
+    height: auto;
+    margin: 0;
+}
+
+.top-project {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.bottom-project {
+display: flex;
+justify-content: center;
+align-items: end;
+}
+
+@media (max-width :600px) {
+
+    .card {
+        height:700px;
+        width:auto;
+        background-color: #161616;
+        margin-top: 35px;
+        margin-left: 30px;
+        border-radius: 50px;
+    }
+
+    .button-div {
+        border: 1px solid white;
+        width:auto;
+        height: auto;
+        margin: auto;
+    }
+    
+    .top-project {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 20px;
+        
+    }
+    
+    .bottom-project {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        }
+    
 }

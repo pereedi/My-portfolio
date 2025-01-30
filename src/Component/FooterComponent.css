@@ -24,7 +24,25 @@
   font-weight: 100px;
 }
 
-@media (max-width: 600px ) {
+@media (max-width: 768px) { /* For tablets and smaller devices */
+  .footer-card {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      height: auto;
+      width: 100%;
+      padding: 30px 10px;
+      text-align: center;
+  }
+
+  .foot-pairs {
+      width: 100%; /* Ensures each set of links takes full width */
+  }
+
+  .foot-pairs a h3 {
+      font-size: 14px;
+  }
+}@media (max-width: 600px ) {
   .footer-card {
     padding-right:1000px;
     display: flex;
