@@ -45,8 +45,8 @@ export const ProjectPage = () => {
         </div>
         
         <div className='button-div'>
-        <h2>Travel goo Web Application</h2>
-        <Link to='https://travel-goo-taupe.vercel.app/'><button>Click here to view 
+        <h2>VivaDecor</h2>
+        <Link to='https://viva-decor-project.vercel.app/'><button>Click here to view 
           <img src={download_icon} alt="download-icon" />
         </button></Link> 
        </div>

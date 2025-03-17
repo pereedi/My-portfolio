@@ -1,15 +1,17 @@
 
 .footer-card {
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap:80px;
-    height: 300px;
-    width: auto;
-    background-color: #161616;
-    background-size: cover;
-    color: #fff;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  height: 300px;
+  width: 100%; /* Ensure it covers the full width */
+  background-color: #161616;
+  background-size: cover;
+  color: #fff;
+  padding: 0 20px; /* Add padding to ensure content doesn't touch the edges */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
 
@@ -26,33 +28,15 @@
 
 @media (max-width: 768px) { /* For tablets and smaller devices */
   .footer-card {
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
-      height: auto;
-      width: 100%;
-      padding: 30px 10px;
-      text-align: center;
-  }
-
-  .foot-pairs {
-      width: 100%; /* Ensures each set of links takes full width */
-  }
-
-  .foot-pairs a h3 {
-      font-size: 14px;
-  }
-}@media (max-width: 600px ) {
-  .footer-card {
-    padding-right:1000px;
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 600px;
-    width: 500px;
-    background-color: #161616;
-    background-size: cover;
-    color: #fff;
+    align-items: first baseline;
+    gap: 20px;
+    padding: 0 10px; /* Adjust padding for smaller screens */
 }
+
+.foot-pairs {
+  gap: 10px;
+  padding-left: 150px;
 }
+
+  }

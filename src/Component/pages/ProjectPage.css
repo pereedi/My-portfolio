@@ -1,73 +1,72 @@
-.pagename{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.project-page {
     display: flex;
-    padding: 100px 0px 0px 35px;
-    font-weight: 700;
-    font-size: 25px;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 
 .card {
-    height:700px;
-    width:980px;
+    height: 700px;
+    width: 100%; /* Make the card width responsive */
+    max-width: 980px; /* Set a maximum width */
     background-color: #161616;
     margin-top: 35px;
     margin-left: 30px;
     border-radius: 50px;
-}
-
-.card::-webkit-scrollbar {
-    width: 10px;
+    overflow: scroll;
+    scrollbar-width: thin;
 }
 
 .button-div {
     border: 1px solid white;
-    width:500px;
+    width: 100%; /* Make the button-div width responsive */
+    max-width: 500px; /* Set a maximum width */
     height: auto;
     margin: 0;
 }
 
 .top-project {
     display: flex;
+    flex-direction: column;
     gap: 10px;
     margin-bottom: 20px;
 }
 
 .bottom-project {
-display: flex;
-justify-content: center;
-align-items: end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-@media (max-width :600px) {
-
+@media (max-width: 768px) {
     .card {
-        height:700px;
-        width:auto;
-        background-color: #161616;
-        margin-top: 35px;
-        margin-left: 30px;
-        border-radius: 50px;
+        height: auto; /* Adjust height for smaller screens */
+        margin-left: 0; /* Remove left
+         margin for smaller screens */
+        padding: 10px; /* Add padding for better spacing */
     }
 
     .button-div {
-        border: 1px solid white;
-        width:auto;
-        height: auto;
-        margin: auto;
+        width: 100%; /* Ensure button-div takes full width */
+        max-width: 100%; /* Remove max-width for smaller screens */
+        margin-top: 20px; /* Add margin for spacing */
     }
-    
+
     .top-project {
-        display: flex;
-        flex-direction: column;
+        flex-direction: column; /* Ensure top-project is column-oriented */
         gap: 10px;
         margin-bottom: 20px;
-        
     }
-    
+
     .bottom-project {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-        }
-    
+        flex-direction: column; /* Ensure bottom-project is column-oriented */
+        gap: 10px;
+        margin-top: 20px; /* Add margin for spacing */
+    }
 }

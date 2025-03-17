@@ -1,4 +1,4 @@
-import './FirstPageMain.css'
+
 
 import React from 'react'
 
@@ -7,6 +7,7 @@ import bankable_wisdom from './assets/bankablewisdom1.svg'
 import Xrpl_icon from './assets/xrpl1.svg'
 import Mac_icon from './assets/macoprahTech.svg'
 import FME_icon from './assets/fME1.svg'
+import './Imageslide.css'
 
 function Imageslide() {
     return (
